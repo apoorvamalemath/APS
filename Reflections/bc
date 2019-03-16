@@ -1,0 +1,18 @@
+BINOMIAL CO-EFFICIENT
+
+Array Implementation:
+•	1D array can be used to just attain the final result. 
+Time complexity = n
+•	2D array implementation (DP table) provides all the steps i.e intermediate results can be seen.
+Result of any intermediate steps can be fetched with no trouble.
+Time complexity = n*k
+Uses more space (n*k)
+
+Recursion
+•	Good for smaller numbers.
+•	Inefficient as each it has to recursively compute for all values and cannot go back to fetch any value.
+•	Time complexity = O(2^n)
+•	Space complexity = (2^n-1)*8bytes
+
+
+
